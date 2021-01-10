@@ -14,12 +14,4 @@ namespace Recruitment.Contracts
         public string password { get; set; }
     }
 
-    /// <summary>
-    /// Recruitment test response model
-    /// </summary>
-    public class HashValue
-    {
-        public string hash_value { get; set; }
-    }
-
 }
