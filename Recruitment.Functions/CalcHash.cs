@@ -45,6 +45,8 @@ namespace Recruitment.Functions
 
         public static string CreateMD5Hash(string input)
         {
+            // note: this belongs in a business logic library or service library
+
             // Step 1, calculate MD5 hash from input
             MD5 md5 = MD5.Create();
             byte[] inputBytes = Encoding.ASCII.GetBytes(input);
