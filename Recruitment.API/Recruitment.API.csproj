@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Recruitment.Contracts\Recruitment.Contracts.csproj" />
+    <ProjectReference Include="..\Recruitment.Functions\Recruitment.Functions.csproj" />
+  </ItemGroup>
+
 
 </Project>
